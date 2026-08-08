@@ -27,8 +27,8 @@ const leadSchema = new mongoose.Schema(
       identifier: { type: String, default: "" },
     },
 
-    walletBalance: { type: Number, default: 25 },
-    totalBalance: { type: Number, default: 25 },
+    walletBalance: { type: Number, default: 5 },
+    totalBalance: { type: Number, default: 5 },
     commissionTotal: { type: Number, default: 0 },
     todayProfit: { type: Number, default: 0 },
     salary: { type: Number, default: 0 },
